@@ -6,7 +6,7 @@
     margin: 100px auto;
 
     @include small {
-      margin: 50px;
+      margin: 25px;
     }
 
     @include medium {
@@ -26,12 +26,20 @@
     }
 
     img {
-      width:96px;
+      width: 96px;
       margin: 2px;
     }
 
     .subtitle {
       font-size: 2em;
+    }
+  }
+
+  .linkbar {
+    margin-bottom: 20px;
+
+    a {
+      margin: 20px;
     }
   }
 }

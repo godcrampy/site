@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import "./HomePage.scss";
 import Stack from "../../components/Stack";
+import { Link } from "react-router-dom";
 
 class HomePage extends Component {
   render() {
@@ -13,6 +14,12 @@ class HomePage extends Component {
             Hey, I'm Sahil
           </h1>
           <h2 className="subtitle">I design and build software of all kinds</h2>
+          <div className="linkbar">
+            <Link to="/">code</Link>
+            <Link to="/">blog</Link>
+            <Link to="/">timeline</Link>
+            <Link to="/">whoami</Link>
+          </div>
         </div>
         <Stack />
       </div>
