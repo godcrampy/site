@@ -1,0 +1,23 @@
+@import "../../sass/breakpoints";
+
+.TimelinePage {
+  padding-top: 50px;
+
+  .center {
+    text-align: center;
+    font-size: 5em;
+
+    @include small {
+      font-size: 3em;
+    }
+
+    @include medium {
+      font-size: 4em;
+    }
+  }
+
+  .subtitle {
+    margin: 10% auto 2px auto;
+    font-size: 2em;
+  }
+}
