@@ -38,7 +38,7 @@ class Navbar extends Component {
               <Link to="/code" className="navbar-item">
                 code
               </Link>
-              <Link to="/" className="navbar-item">
+              <Link to="/blog" className="navbar-item">
                 blog
               </Link>
               <Link to="/" className="navbar-item">

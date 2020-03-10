@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import CodePage from "./pages/CodePage";
+import BlogPage from "./pages/BlogPage";
 
 class App extends Component {
   render() {
@@ -14,11 +15,14 @@ class App extends Component {
         <Router>
           <Navbar />
           <Switch>
+            <Route path="/code">
+              <CodePage />
+            </Route>
+            <Route path="/blog">
+              <BlogPage />
+            </Route>
             <Route path="/" exact>
               <HomePage />
-            </Route>
-            <Route path="/code" exact>
-              <CodePage />
             </Route>
           </Switch>
           <Footer />

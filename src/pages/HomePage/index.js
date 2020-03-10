@@ -16,7 +16,7 @@ class HomePage extends Component {
           <h2 className="subtitle">I design and build software of all kinds</h2>
           <div className="linkbar">
             <Link to="/code">code</Link>
-            <Link to="/">blog</Link>
+            <Link to="/blog">blog</Link>
             <Link to="/">timeline</Link>
             <Link to="/">whoami</Link>
           </div>
