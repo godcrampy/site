@@ -2,6 +2,7 @@
   section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 
     .stack-item {
       margin: 12px;

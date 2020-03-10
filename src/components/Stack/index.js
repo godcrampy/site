@@ -25,6 +25,8 @@ import flutterLogo from "../../assets/icons/flutter.png";
 import expressLogo from "../../assets/icons/express.png";
 import dartLogo from "../../assets/icons/dart.png";
 import rustLogo from "../../assets/icons/rust.png";
+import truffleLogo from "../../assets/icons/truffle.jpg";
+import ethLogo from "../../assets/icons/ethereum.png";
 
 class Stack extends React.Component {
   render() {
@@ -54,6 +56,8 @@ class Stack extends React.Component {
           <StackItem image={cppLogo} name="C++" />
           <StackItem image={rustLogo} name="Rust" />
           <StackItem image={pythonLogo} name="Python" />
+          <StackItem image={ethLogo} name="Ethereum" />
+          <StackItem image={truffleLogo} name="Truffle" />
         </section>
       </div>
     );
