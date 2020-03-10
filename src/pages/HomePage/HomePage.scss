@@ -3,14 +3,12 @@
 .HomePage {
   #jumbo {
     text-align: center;
-    margin: 100px auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
 
     @include small {
-      margin: 25px;
-    }
-
-    @include medium {
-      margin: 75px;
+      margin-top: 25px;
+      margin-bottom: 50px;
     }
 
     h1 {
@@ -26,8 +24,16 @@
     }
 
     img {
-      width: 96px;
-      margin: 2px;
+      width: 78px;
+      margin: 10px;
+
+      @include small {
+        width: 45px;
+      }
+
+      @include medium {
+        width: 52px;
+      }
     }
 
     .subtitle {

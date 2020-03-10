@@ -4,15 +4,15 @@ import "./HomePage.scss";
 import Stack from "../../components/Stack";
 import { Link } from "react-router-dom";
 
+import wave from "../../assets/icons/wave.png";
+
 class HomePage extends Component {
   render() {
     return (
       <div className="HomePage">
         <div id="jumbo">
-          <h1 className="title">
-            {/* <img src={wave} alt="wave"></img> */}
-            Hey, I'm Sahil
-          </h1>
+          <img src={wave} alt="wave"></img>
+          <h1 className="title">Hey, I'm Sahil</h1>
           <h2 className="subtitle">I design and build software of all kinds</h2>
           <div className="linkbar">
             <Link to="/">code</Link>
