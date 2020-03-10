@@ -1,0 +1,18 @@
+#stack {
+  section {
+    display: flex;
+    flex-wrap: wrap;
+
+    .stack-item {
+      margin: 12px;
+      text-align: center;
+
+      img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+      }
+
+    }
+  }
+}

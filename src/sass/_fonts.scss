@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "cotham";
+  src: local("cotham"), url("../assets/fonts/Lora-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "merriweather";
+  src: local("merriweather"), url("../assets/fonts/Merriweather-Regular.ttf") format("truetype");
+}
+
+$serif: "cotham";
+$sans: "merriweather"
