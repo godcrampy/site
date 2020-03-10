@@ -5,6 +5,7 @@ import "./App.scss";
 import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import CodePage from "./pages/CodePage";
 
 class App extends Component {
   render() {
@@ -13,8 +14,11 @@ class App extends Component {
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/">
+            <Route path="/" exact>
               <HomePage />
+            </Route>
+            <Route path="/code" exact>
+              <CodePage />
             </Route>
           </Switch>
           <Footer />

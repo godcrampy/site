@@ -14,11 +14,11 @@ class Navbar extends Component {
       <nav className="Navbar">
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
-            <a className="navbar-item" href="https://bulma.io">
-              <h1 className="title" id="brand">
+            <Link className="navbar-item" to="/">
+              <h1 className="title serif" id="brand">
                 Sahil Bondre
               </h1>
-            </a>
+            </Link>
 
             <div
               role="button"
@@ -35,7 +35,7 @@ class Navbar extends Component {
 
           <div className={`navbar-menu ${this.state.isActive ? "is-active" : ""}`}>
             <div className="navbar-end">
-              <Link to="/" className="navbar-item">
+              <Link to="/code" className="navbar-item">
                 code
               </Link>
               <Link to="/" className="navbar-item">
