@@ -1,0 +1,51 @@
+@import "../../sass/breakpoints";
+
+.WhoamiPage {
+  padding-top: 50px;
+
+  .center {
+    text-align: center;
+    font-size: 5em;
+
+    @include small {
+      font-size: 3em;
+    }
+
+    @include medium {
+      font-size: 4em;
+    }
+  }
+
+  .title {
+    margin-top: 20px;
+  }
+
+  .is-one-quarter {
+    text-align: center;
+
+    .image {
+      margin: 0 auto;
+    }
+
+    .margin-cut {
+      margin-bottom: 0;
+    }
+
+    a {
+      margin: 4px;
+    }
+  }
+
+  .content {
+    margin-top: 25px;
+  }
+
+  .enlarge {
+    margin-top: 25px;
+    font-size: 1.2em;
+  }
+
+  button {
+    margin: 20px 0;
+  }
+}

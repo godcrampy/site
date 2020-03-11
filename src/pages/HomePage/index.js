@@ -18,7 +18,7 @@ class HomePage extends Component {
             <Link to="/code">code</Link>
             <Link to="/blog">blog</Link>
             <Link to="/time">timeline</Link>
-            <Link to="/">whoami</Link>
+            <Link to="/whoami">whoami</Link>
           </div>
         </div>
         <Stack />

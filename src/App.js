@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import CodePage from "./pages/CodePage";
 import BlogPage from "./pages/BlogPage";
 import TimelinePage from "./pages/TimelinePage";
+import WhoamiPage from "./pages/WhoamiPage";
 
 class App extends Component {
   render() {
@@ -24,6 +25,9 @@ class App extends Component {
             </Route>
             <Route path="/time">
               <TimelinePage />
+            </Route>
+            <Route path="/whoami" exact>
+              <WhoamiPage />
             </Route>
             <Route path="/" exact>
               <HomePage />

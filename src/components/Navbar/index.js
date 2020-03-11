@@ -44,7 +44,7 @@ class Navbar extends Component {
               <Link to="/time" className="navbar-item">
                 timeline
               </Link>
-              <Link to="/" className="navbar-item">
+              <Link to="/whoami" className="navbar-item">
                 whoami
               </Link>
             </div>
