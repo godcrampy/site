@@ -47,7 +47,11 @@ class Footer extends Component {
             }}
             href="https://github.com/godcrampy/site"
           >
-            open source.
+            open sourced{" "}
+            <span role="img" aria-label="heart">
+              💖
+            </span>
+            .
           </a>
         </p>
       </footer>
