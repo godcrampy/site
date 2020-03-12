@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactGA from "react-ga";
 
 import "./ProjectCard.scss";
 
@@ -11,7 +12,18 @@ class ProjectCard extends Component {
             <div class="media">
               <div class="media-content">
                 <p class="title is-3">
-                  <a href={this.props.link}>{this.props.title}</a>
+                  <a
+                    onClick={() =>
+                      ReactGA.event({
+                        category: "Outgoing",
+                        action: "Clicked on Project Link",
+                        label: this.props.link
+                      })
+                    }
+                    href={this.props.link}
+                  >
+                    {this.props.title}
+                  </a>
                 </p>
                 <p>
                   {this.props.tags.map(e => (

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactGA from "react-ga";
 
 import "./Footer.scss";
 
@@ -34,6 +35,20 @@ class Footer extends Component {
         <br />
         <p>
           Icons by <a href="https://icons8.com">icons8</a>
+        </p>
+        <p>
+          This website is{" "}
+          <a
+            onClick={() => {
+              ReactGA.event({
+                category: "Outgoing",
+                action: "Clicked on github repo link"
+              });
+            }}
+            href="https://github.com/godcrampy/site"
+          >
+            open source.
+          </a>
         </p>
       </footer>
     );

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactGA from "react-ga";
 
 import "./WhoamiPage.scss";
 import profile from "../../assets/icons/profile.jpg";
@@ -28,8 +29,8 @@ class WhoamiPage extends Component {
         <h1 className="title center serif">whoami?</h1>
         <div className="columns">
           <div className="column is-one-quarter">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src={profile} alt="profile" />
+            <figure className="image is-128x128">
+              <img className="is-rounded" src={profile} alt="profile" />
             </figure>
             <h1 className="title serif">Sahil Bondre</h1>
             <h1 className="subtitle">@godcrampy</h1>
@@ -75,6 +76,10 @@ class WhoamiPage extends Component {
             <button
               className="button is-black"
               onClick={() => {
+                ReactGA.event({
+                  category: "Outgoing",
+                  action: "Download Resume"
+                });
                 window.location.href =
                   "https://github.com/godcrampy/portfolio/raw/master/src/assets/resume.pdf";
               }}
