@@ -64,6 +64,11 @@ class WhoamiPage extends Component {
                       We made <a href="https://github.com/Twelfth-Hour/notes-kitty">Notes Kitty</a>
                     </p>
                   </li>
+                  <li>
+                    <h6>
+                      Joined <a href="https://github.com/webpack/">webpack</a>
+                    </h6>
+                  </li>
                 </ul>
               </div>
             </div>
