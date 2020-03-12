@@ -3,7 +3,7 @@ import React from "react";
 import StackItem from "./StackItem";
 import "./Stack.scss";
 
-import jsLogo from "../../assets/icons/javascript.jpeg";
+import jsLogo from "../../assets/icons/javascript.jpg";
 import reactLogo from "../../assets/icons/react.png";
 import nodeLogo from "../../assets/icons/node.png";
 import reduxLogo from "../../assets/icons/redux.png";
