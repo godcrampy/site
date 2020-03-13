@@ -3,14 +3,21 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
 import "./TimelinePage.scss";
 
+const textColor = "#00171f";
+const bgColor = "#ddd";
+
 class TimelinePage extends Component {
   render() {
     return (
       <div className="TimelinePage">
         <h1 className="title center serif">Timeline</h1>
         <h3 className="subtitle center serif">What am I upto these days?</h3>
-        <Timeline lineColor={"#ddd"}>
-          <TimelineItem key="001" dateText="Feb to March 2020">
+        <Timeline lineColor={"#00171f"}>
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="Feb to March 2020"
+          >
             <p>Software Engineer Intern at Stackby</p>
             <p>
               Joined <a href="https://github.com/webpack">webpack</a>
@@ -19,14 +26,26 @@ class TimelinePage extends Component {
               <a href="https://sparshsvnit.org/">Sparsh</a> website
             </p>
           </TimelineItem>
-          <TimelineItem key="001" dateText="Jan 2020">
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="Jan 2020"
+          >
             <p>Runner Up, Dotslash 2020 Hackathon</p>
             <p>6th position, Hackverse 2020 Hackathon</p>
           </TimelineItem>
-          <TimelineItem key="001" dateText="December 2019">
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="December 2019"
+          >
             <p>Learning Blockchain, Ethereum, Solidity and Truffle</p>
           </TimelineItem>
-          <TimelineItem key="001" dateText="November 2019">
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="November 2019"
+          >
             <p>
               Open Source contributions for{" "}
               <a href="https://github.com/webpack/webpack-cli/pulls?q=is%3Apr+author%3Agodcrampy">
@@ -37,7 +56,11 @@ class TimelinePage extends Component {
               Joined <a href="https://github.com/fossasia">FOSSASIA</a>
             </p>
           </TimelineItem>
-          <TimelineItem key="001" dateText="October 2019">
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="October 2019"
+          >
             <p>
               Built <a href="http://listly.surge.sh/">Listly</a>
             </p>
@@ -48,15 +71,27 @@ class TimelinePage extends Component {
               </span>
             </p>
           </TimelineItem>
-          <TimelineItem key="001" dateText="September 2019">
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="September 2019"
+          >
             <p>Lots of Competitive</p>
             <p>Learnt C++</p>
           </TimelineItem>
-          <TimelineItem key="001" dateText="July & August 2019">
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="July & August 2019"
+          >
             <p>Learnt React</p>
             <p>Secret Projects</p>
           </TimelineItem>
-          <TimelineItem key="001" dateText="June 2019">
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="June 2019"
+          >
             <p>
               Built{" "}
               <a href="https://play.google.com/store/apps/details?id=com.godcrampy.svnit">
@@ -64,10 +99,18 @@ class TimelinePage extends Component {
               </a>
             </p>
           </TimelineItem>
-          <TimelineItem key="001" dateText="April 2019">
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="April 2019"
+          >
             <p>Learnt Flutter</p>
           </TimelineItem>
-          <TimelineItem key="001" dateText="January to March 2019">
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="January to March 2019"
+          >
             <p>Exploring Machine Learning, AI, Computer Vision</p>
             <p>
               Machine Learning from{" "}
@@ -76,7 +119,11 @@ class TimelinePage extends Component {
               </a>
             </p>
           </TimelineItem>
-          <TimelineItem key="001" dateText="14 Billion Years Ago">
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="14 Billion Years Ago"
+          >
             <p>
               Our whole universe was in a hot dense state Then nearly fourteen billion years ago
               expansion started. Wait... The Earth began to cool The autotrophs began to drool
