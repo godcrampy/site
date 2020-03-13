@@ -3,8 +3,8 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
 import "./TimelinePage.scss";
 
-const textColor = "#00171f";
-const bgColor = "#ddd";
+const textColor = "#eee";
+const bgColor = "#00171f";
 
 class TimelinePage extends Component {
   render() {
