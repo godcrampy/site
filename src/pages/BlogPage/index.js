@@ -79,7 +79,10 @@ const data = [
     title: "MEN Stack Template with Local Auth Plugged in!",
     link: "https://dev.to/godcrampy/men-stack-template-with-local-authentication-plugged-in-3f75",
     tags: [tags.JS, tags.SHOWDEV]
-  }
+  },
+  {},
+  {},
+  {}
 ];
 
 class BlogPage extends Component {
@@ -102,7 +105,9 @@ class BlogPage extends Component {
               {arr.map(blog => {
                 return (
                   <div className="column">
-                    <BlogCard title={blog.title} link={blog.link} tags={blog.tags} />
+                    {blog.title && (
+                      <BlogCard title={blog.title} link={blog.link} tags={blog.tags} />
+                    )}
                   </div>
                 );
               })}
