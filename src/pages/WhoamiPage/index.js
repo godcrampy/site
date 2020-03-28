@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactGA from "react-ga";
 
 import "./WhoamiPage.scss";
-import profile from "../../assets/icons/profile.jpg";
+import profile from "../../assets/icons/profile.png";
 
 class WhoamiPage extends Component {
   getDay = () => {
