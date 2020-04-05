@@ -20,7 +20,7 @@ class Footer extends Component {
         <a href="https://dev.to/godcrampy">
           <img alt="icon" src={dev}></img>
         </a>
-        <a href="https://instagram.com/sahil.bondre">
+        <a href="https://instagram.com/godcrampy">
           <img alt="icon" src={instagram}></img>
         </a>
         <a href="mailto:sahilbondre@gmail.com">
