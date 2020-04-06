@@ -18,7 +18,8 @@ class MailBox extends Component {
 
     const db = firebase.firestore();
     db.collection("emails").add({
-      mail: this.state.mail
+      mail: this.state.mail,
+      source: "sahil.surge.sh"
     });
     this.setState({ subscribed: true });
   };
