@@ -1,0 +1,21 @@
+@import "../../sass/colors";
+
+.MailBox {
+  width: 400px;
+  max-width: 90vw;
+
+  input {
+    border: 2px solid $dark !important;
+  }
+
+  button {
+    border: 2px solid $dark !important;
+    font-weight: bold;
+
+    &:hover {
+      transition: ease-out 0.2s;
+      background-color: $dark !important;
+      color: $light !important;
+    }
+  }
+}
