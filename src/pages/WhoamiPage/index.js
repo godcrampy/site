@@ -81,7 +81,7 @@ class WhoamiPage extends Component {
                   action: "Download Resume"
                 });
                 window.location.href =
-                  "https://github.com/godcrampy/portfolio/raw/master/src/assets/resume.pdf";
+                  "https://github.com/godcrampy/site/raw/master/src/assets/sahil-bondre.pdf";
               }}
             >
               Here's My Resume
