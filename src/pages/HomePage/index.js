@@ -5,7 +5,6 @@ import Stack from "../../components/Stack";
 import { Link } from "react-router-dom";
 
 import wave from "../../assets/icons/wave.png";
-import MailBox from "../../components/MailBox";
 
 class HomePage extends Component {
   render() {
@@ -22,7 +21,7 @@ class HomePage extends Component {
             <Link to="/whoami">whoami</Link>
           </div>
           <center>
-            <MailBox />
+
           </center>
         </div>
         <Stack />
