@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
+import ReactGA from "react-ga";
 
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
@@ -50,10 +52,10 @@ class Navbar extends Component {
               <a
                 className="navbar-item"
                 onClick={() => {
-                  // ReactGA.event({
-                  //   category: "Outgoing",
-                  //   action: "Download Resume"
-                  // });
+                  ReactGA.event({
+                    category: "Outgoing",
+                    action: "Download Resume"
+                  });
                   window.location.href =
                     "https://github.com/godcrampy/site/raw/master/src/assets/sahil-bondre.pdf";
                 }}
