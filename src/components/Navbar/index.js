@@ -47,6 +47,19 @@ class Navbar extends Component {
               <Link to="/whoami" className="navbar-item">
                 whoami
               </Link>
+              <a
+                className="navbar-item"
+                onClick={() => {
+                  // ReactGA.event({
+                  //   category: "Outgoing",
+                  //   action: "Download Resume"
+                  // });
+                  window.location.href =
+                    "https://github.com/godcrampy/site/raw/master/src/assets/sahil-bondre.pdf";
+                }}
+              >
+                resume
+              </a>
             </div>
           </div>
         </nav>
