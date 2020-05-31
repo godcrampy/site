@@ -48,15 +48,6 @@ class WhoamiPage extends Component {
             </p>
             <div className="columns">
               <div className="column content">
-                <h2 className="subtitle">Work Experience</h2>
-                <ul>
-                  <li>
-                    <h6>Software Engineer Intern @ Stackby</h6>
-                    <p>Feb 2020 - March 2020</p>
-                  </li>
-                </ul>
-              </div>
-              <div className="column content">
                 <h3 className="subtitle">Things I'm proud of</h3>
                 <ul>
                   <li>

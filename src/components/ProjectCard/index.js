@@ -6,24 +6,22 @@ import "./ProjectCard.scss";
 class ProjectCard extends Component {
   render() {
     return (
-      <a onClick={() =>
-        ReactGA.event({
-          category: "Outgoing",
-          action: "Clicked on Project Link",
-          label: this.props.link
-        })
+      <a
+        onClick={() =>
+          ReactGA.event({
+            category: "Outgoing",
+            action: "Clicked on Project Link",
+            label: this.props.link
+          })
         }
-        href={this.props.link}>
+        href={this.props.link}
+      >
         <div className="ProjectCard">
           <div class="card">
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-3">
-                    <a>
-                      {this.props.title}
-                    </a>
-                  </p>
+                  <p class="title is-3">{this.props.title}</p>
                   <p>
                     {this.props.tags.map(e => (
                       <span class={`${e[1]} tag is-light`}>{e[0]}</span>
@@ -33,7 +31,6 @@ class ProjectCard extends Component {
               </div>
               <div class="content">{this.props.content}</div>
             </div>
-            <div class="content">{this.props.content}</div>
           </div>
         </div>
       </a>

@@ -7,3 +7,7 @@ Personal [website](https://sahil.surge.sh).
 - [Surge](http://surge.sh)
 - [React](https://reactjs.org/)
 - [Sass](https://sass-lang.com/)
+
+## Awesome Contributors
+
+- [skeshavaa](https://github.com/skeshavaa)

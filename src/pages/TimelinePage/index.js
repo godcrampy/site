@@ -18,7 +18,6 @@ class TimelinePage extends Component {
             key="001"
             dateText="Feb to March 2020"
           >
-            <p>Software Engineer Intern at Stackby</p>
             <p>
               Joined <a href="https://github.com/webpack">webpack</a>
             </p>

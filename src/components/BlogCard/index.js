@@ -6,24 +6,22 @@ import "./BlogCard.scss";
 class BlogCard extends Component {
   render() {
     return (
-      <a onClick={() =>
-        ReactGA.event({
-          category: "Outgoing",
-          action: "Clicked on Blog Link",
-          label: this.props.link
-        })
+      <a
+        onClick={() =>
+          ReactGA.event({
+            category: "Outgoing",
+            action: "Clicked on Blog Link",
+            label: this.props.link
+          })
         }
-        href={this.props.link}>
+        href={this.props.link}
+      >
         <div className="BlogCard">
           <div class="card">
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-3">
-                    <a>
-                      {this.props.title}
-                    </a>
-                  </p>
+                  <p class="title is-3">{this.props.title}</p>
                   <p>
                     {this.props.tags.map(e => (
                       <span class="tag">{e}</span>
