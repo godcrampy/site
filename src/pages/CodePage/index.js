@@ -5,9 +5,15 @@ import "./CodePage.scss";
 
 const data = [
   {
+    title: "📎 To Die List",
+    link: "https://play.google.com/store/apps/details?id=com.godcrampy.to_die_list",
+    content: "Complete your tasks before they get killed! Introducing a redesigned To Do List",
+    tags: [["Flutter", "is-info"]]
+  },
+  {
     title: "📖 Case Design",
     link: "https://github.com/godcrampy/case-design",
-    content: "📖 A Thoughtful Design Language",
+    content: "A Thoughtful Design Language",
     tags: [["Sass", "is-danger"]]
   },
   {

@@ -16,6 +16,25 @@ class TimelinePage extends Component {
           <TimelineItem
             dateInnerStyle={{ background: bgColor, color: textColor }}
             key="001"
+            dateText="May 2020"
+          >
+            <p>
+              Made{" "}
+              <a href="https://play.google.com/store/apps/details?id=com.godcrampy.to_die_list">
+                To Die List
+              </a>
+            </p>
+          </TimelineItem>
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
+            dateText="April 2020"
+          >
+            <p>Working on Typescript, golang and react testing</p>
+          </TimelineItem>
+          <TimelineItem
+            dateInnerStyle={{ background: bgColor, color: textColor }}
+            key="001"
             dateText="Feb to March 2020"
           >
             <p>
