@@ -38,7 +38,7 @@ class Navbar extends Component {
           <div className={`navbar-menu ${this.state.isActive ? "is-active" : ""}`}>
             <div className="navbar-end">
               <Link to="/code" className="navbar-item">
-                code
+                projects
               </Link>
               <Link to="/blog" className="navbar-item">
                 blog

@@ -14,9 +14,9 @@ class HomePage extends Component {
         <div id="jumbo">
           <img src={wave} alt="wave"></img>
           <h1 className="title serif">Hey, I'm Sahil</h1>
-          <h2 className="subtitle">I design and build software of all kinds</h2>
+          <h2 className="subtitle">Web and Mobile Engineer</h2>
           <div className="linkbar">
-            <Link to="/code">code</Link>
+            <Link to="/code">projects</Link>
             <Link to="/blog">blog</Link>
             <Link to="/time">timeline</Link>
             <Link to="/whoami">whoami</Link>
