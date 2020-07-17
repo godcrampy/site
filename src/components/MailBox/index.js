@@ -17,10 +17,16 @@ class MailBox extends Component {
     if (!this.validateEmail(mail)) return;
 
     const db = firebase.firestore();
-    db.collection("emails").add({
-      mail: this.state.mail,
-      source: "sahil.surge.sh"
-    });
+    // db.collection("emails").add({
+    //   mail: this.state.mail,
+    //   source: "sahil.surge.sh"
+    // });
+    db.collection("emails")
+      .doc(this.state.mail)
+      .set({
+        mail: this.state.mail,
+        source: "sahil.surge.sh"
+      });
     this.setState({ subscribed: true });
   };
   render() {
