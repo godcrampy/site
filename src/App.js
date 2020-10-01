@@ -11,6 +11,8 @@ import BlogPage from "./pages/BlogPage";
 import TimelinePage from "./pages/TimelinePage";
 import WhoamiPage from "./pages/WhoamiPage";
 import LostPage from "./pages/404";
+import SharePage from "./pages/SharePage";
+import shareLinks from "./share";
 
 ReactGA.initialize("UA-160443909-1");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -37,6 +39,16 @@ class App extends Component {
             <Route path="/" exact>
               <HomePage />
             </Route>
+            <Route
+              path="/s/:link"
+              render={props => {
+                const link = props.match.params.link;
+                if (link in shareLinks) {
+                  return <SharePage {...props} data={shareLinks[link]} />;
+                }
+                return <LostPage />;
+              }}
+            />
             <Route path="/">
               <LostPage />
             </Route>
