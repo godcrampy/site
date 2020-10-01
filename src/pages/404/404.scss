@@ -1,0 +1,43 @@
+@import "../../sass/breakpoints";
+
+.LostPage {
+  #jumbo {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+    @include small {
+      margin-top: 25px;
+      margin-bottom: 50px;
+    }
+
+    h1 {
+      font-size: 5em;
+
+      @include small {
+        font-size: 3em;
+      }
+
+      @include medium {
+        font-size: 4em;
+      }
+    }
+
+    img {
+      width: 50%;
+      margin: 10px;
+
+      @include small {
+        width: 80%;
+      }
+
+      @include medium {
+        width: 75%;
+      }
+    }
+
+    .subtitle {
+      font-size: 2em;
+    }
+  }
+}
