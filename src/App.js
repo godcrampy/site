@@ -10,6 +10,7 @@ import CodePage from "./pages/CodePage";
 import BlogPage from "./pages/BlogPage";
 import TimelinePage from "./pages/TimelinePage";
 import WhoamiPage from "./pages/WhoamiPage";
+import LostPage from "./pages/404";
 
 ReactGA.initialize("UA-160443909-1");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -35,6 +36,9 @@ class App extends Component {
             </Route>
             <Route path="/" exact>
               <HomePage />
+            </Route>
+            <Route path="/">
+              <LostPage />
             </Route>
           </Switch>
           <Footer />
